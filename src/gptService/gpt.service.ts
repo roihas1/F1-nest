@@ -1,9 +1,6 @@
 import OpenAI from 'openai';
 import { Injectable } from '@nestjs/common';
 
-const openai = new OpenAI({
-    apiKey:'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 '
-    });
 
 @Injectable()
 export class GptService{
